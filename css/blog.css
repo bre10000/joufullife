@@ -1,0 +1,57 @@
+.featured-blog {
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/gallery/Asset 5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+.image-blog {
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+a:hover span.tag {
+  background-color: darkblue;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .image-blog {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .image-blog {
+    height: 150px;
+  }
+}
+.image-blog-1 {
+  background-image: url("../images/gallery/Asset 6.png");
+}
+
+.image-blog-2 {
+  background-image: url("../images/gallery/Asset 7.png");
+}
+
+.image-blog-3 {
+  background-image: url("../images/gallery/Asset 8.png");
+}
+
+.image-blog-4 {
+  background-image: url("../images/gallery/Asset 9.png");
+}
+
+.image-blog-5 {
+  background-image: url("../images/gallery/Asset 10.png");
+}
+
+.image-blog-6 {
+  background-image: url("../images/gallery/Asset 11.png");
+}
